@@ -27,7 +27,8 @@ namespace HideCityBundleStand
                 ForestKiosk.FindChildRecursive("CreatorCodeMonitor").gameObject,
                 ForestKiosk.FindChildRecursive("FrontPanel_Center").gameObject,
 		ForestKiosk.FindChildRecursive("rig").gameObject,
-                ForestKiosk.FindChildRecursive("PartyPayloadBackpack_Wardrobe Variant").gameObject
+		ForestKiosk.FindChildRecursive("PalmEnergyBlast_FBX").gameObject,
+                ForestKiosk.FindChildRecursive("CloudPants_Wardrobe Variant").gameObject
             };
             foreach (var g in DisabledStuff)
             {
